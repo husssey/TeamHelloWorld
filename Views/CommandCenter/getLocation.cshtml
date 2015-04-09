@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "getLocation";
+    string longi = ViewBag.loc.longitude;
+    string lati = ViewBag.loc.latitude;
+
+    string srcd = "https://maps.googleapis.com/maps/api/staticmap?center=" + longi + "," + lati + "&zoom=11&size=1000x1000";
+}
+<div class="metro">
+
+    <div class="panel span12" data-role="panel">
+        <div class="panel-header bg-lightBlue">
+            Location
+        </div>
+        <div class="panel-content">
+            <img src="@srcd" alt="no image" />
+        </div>
+</div>
+
+</div>
+
+
+
+

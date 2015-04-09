@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "getDeviceInfo";
+}
+<div class="metro">
+
+    <div class="panel span12" data-role="panel">
+        <div class="panel-header bg-lightBlue">
+            Device Info
+        </div>
+        <div class="panel-content">
+
+            <table>
+                <tr>
+                    <td>Device Id</td>
+                    <td>@ViewBag.deviceInfo.deviceId</td>
+                </tr>
+                <tr>
+                    <td>Software Version</td>
+                    <td> @ViewBag.deviceInfo.softwareVersion</td>
+                </tr>
+                <tr>
+                    <td>Operator Name</td>
+                    <td>@ViewBag.deviceInfo.operatorName</td>
+                </tr>
+                <tr>
+                    <td>Sim CountryCode</td>
+                    <td>@ViewBag.deviceInfo.simCountryCode</td>
+                </tr>
+                <tr>
+                    <td>SIM Operator</td>
+                    <td>@ViewBag.deviceInfo.simOperator</td>
+                </tr>
+                <tr>
+                    <td>Sim Serial</td>
+                    <td>@ViewBag.deviceInfo.simSerial</td>
+                </tr>
+                <tr>
+                    <td>Subscriber ID</td>
+                    <td>@ViewBag.deviceInfo.subscriberId</td>
+                </tr>
+                <tr>
+                    <td>Network Type</td>
+                    <td>@ViewBag.deviceInfo.networkType</td>
+                </tr>
+                <tr>
+                    <td>Phone Type</td>
+                    <td>@ViewBag.deviceInfo.phoneType</td>
+                </tr>
+            </table>
+            
+        </div>
+</div>
+
+</div>
